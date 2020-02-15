@@ -1,0 +1,34 @@
+html,
+body {
+    font-family: serif;
+}
+
+body {
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.css-2 {
+    background: #c0c0c0;
+}
+
+.css-3 {
+    background: yellow;
+}
+
+.css-4 {
+    background: orange;
+}
+
+.css-5 {
+    background: red;
+    /* background: rgb(248, 73, 102); */
+}
+
+.active {
+    border: 2px solid black;
+}
+
+.css-1 {
+    background-color: green;
+}

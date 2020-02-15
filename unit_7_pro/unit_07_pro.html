@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 07</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unit 07. Функции</h1>
+
+        <section>
+            <p><b>Task 1.</b></p>
+            <p>Создайте функцию (именнованную), которая при клике на кнопке выводит в консоль ваше имя.</p>
+            <!-- <pre>
+                let a1 = 8;<br>
+                function t1() {<br>
+                
+                }<br>
+                document.querySelector(‘.b-1’).onclick = t1;  <br>              
+            </pre> -->
+            <button class="button-primary b-1">Task-1</button>
+            <div class="out-1"></div>
+        </section>
+
+        <section>
+            <p><b>Task 2.</b></p>
+            <p>Создайте функцию (именованную). Функция должна примать один параметр - имя (например Ivan) и выводить имя
+                переданное ей в консоль. Запустите функцию и передайте в качестве имени Sergey.
+            </p>
+            <!-- <pre>
+                let a2 = 8;<br>
+                function t2() {<br>
+                
+                }<br>
+                document.querySelector(‘.b-2’).onclick = function() {<br>
+                document.querySelector(‘.out-2’).textContent = f2();<br>
+                }<br>
+                          
+            </pre> -->
+            <button class="button-primary b-2">Task-2</button>
+            <div class="out-2"></div>
+        </section>
+
+        <section>
+            <p><b>Task 3.</b></p>
+            <p>Создайте именнованную функцию, которая принимает параметр число и выводит его значение умноженное на 10 в
+                консоль. Запустите выполнение функции. Убедитесь, что она работает. Теперь создайте кнопку и добавьте на
+                нее событие onclick которое вызывает данную функцию с параметром.
+
+                Если вы напишите, подобный синтаксис elem.onclick = myFunc(11), то увидите, что данная функция -
+                выполняется сразу при загрузке страницы! Действительно, ведь мы поставили скобки. Как передать параметр
+                и не запустить функцию сразу? Довольно хитро:
+                Т.е. использовать обертку из анонимной функции.
+            </p>
+            <pre>
+                elem.onclick = function(){
+                    myFunc(22);
+                }
+                
+                          
+            </pre>
+            <button class="button-primary b-3">Task 3</button>
+            <div class="out-3"></div>
+        </section>
+
+        <section>
+            <p><b>Task 4.</b></p>
+            <p>Создайте кнопку и функцию. При нажатии кнопки, функция окрашивает данную кнопку в background: red.</p>
+            <button class="button-primary b-4">Task-4</button>
+        </section>
+
+        <section>
+            <p><b>Task 5.</b></p>
+            <p>Создайте функцию, которая возвращает ваше имя. Имя вводится с input</p>
+            <input type="text" class="i-5">
+            <button class="button-primary b-5">Task-5</button>
+            <div class="out-5"></div>
+        </section>
+
+        <section>
+            <p><b>Task 6.</b></p>
+            <p>Создайте функцию, которая принимает 2 числа и возвращает большее число из двух, либо любое из них если
+                они равны.
+            </p>
+            <button class="button-primary b-6">Task-6</button>
+            <div class="out-6"></div>
+        </section>
+
+        <section>
+            <p><b>Task 7.</b></p>
+            <p>Создайте функцию, которая принимает год рождения и возвращает ваш возраст. Текущий год задавать как 2019.
+            </p>
+            <button class="button-primary b-7">Task-7</button>
+            <div class="out-7"></div>
+        </section>
+
+        <section>
+            <p><b>Task 8.</b></p>
+            <p>Создайте функцию, которая возвращает случайное число от 1 до 10. По случайным числам читаем все здесь и
+                задаем вопросы в чате.
+            </p>
+            <button class="button-primary b-8">Task-8</button>
+            <div class="out-8"></div>
+        </section>
+
+        <section>
+            <p><b>Task 11.</b></p>
+            <p>Создайте функцию f11, которая возвращает число 5. Создайте функцию которая принимает 2 параметра и
+                перемножает их между собой. В качестве первого параметра передайте f11().
+            </p>
+            <button class="button-primary b-11">Task-11</button>
+            <div class="out-11"></div>
+        </section>
+
+        <section>
+            <p><b>Task 12.</b></p>
+            <p>Создайте функцию toNum, которая принимает 1 параметр - объект input, и возвращает введенное в него
+                значение преобразованное в число.
+            </p>
+            <input type="number" class="i-12">
+            <button class="button-primary b-12">Task-12</button>
+            <div class="out-12"></div>
+        </section>
+
+        <section>
+            <p><b>Task 13.</b></p>
+            <p>Создайте функцию emptyInput - которая принимает в качестве параметра input, удаляет все пробелы введенные
+                до и после значения (trim), и проверяет - если результат равен пустой строке - то возвращает false, если
+                нет - то сам результат с обрезанными пробелами.
+            </p>
+            <input type="text" class="i-13">
+            <button class="button-primary b-13">Task-13</button>
+            <div class="out-13"></div>
+        </section>
+
+        <section>
+            <p><b>Task 13xx.</b></p>
+            <p>
+            </p>
+            <input type="color" class="i-14">
+            <button class="button-primary b-14">Task-14</button>
+            <div class="out-14">Hello!!!</div>
+        </section>
+
+    </div>
+
+    <script src="unit_07_pro.js"></script>
+</body>
+
+</html>

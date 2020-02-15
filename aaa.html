@@ -1,0 +1,197 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>[(site_name)] | [*pagetitle*]</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]" />
+    <base href="[(site_url)]">
+    </base>
+
+    <link rel="stylesheet" href="assets/templates/modxhost/layout.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/templates/modxhost/modxmenu.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/templates/modxhost/form.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/templates/modxhost/modx.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/templates/modxhost/print.css" type="text/css" media="print" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="[(site_url)][~11~]" />
+    <script src="[(site_manager_url)]media/script/mootools/mootools.js" type="text/javascript"></script>
+    <script src="assets/templates/modxhost/drop_down_menu.js" type="text/javascript"></script>
+</head>
+
+{{header}}
+
+<div class="aboutbg">
+
+    <!--<div class="left-top" style="background-image: url('assets/images/about-left-center1.png')"></div>
+<div class="right-bottom" style="background-image: url('assets/images/about-right-bottom.png')"></div>-->
+
+    <div class="about contaner">
+        <div>
+            <div class="d-flex">
+                <div class="wow rotateIn"><img class="img-fluid" src="assets/images/about-img.png" alt="" /></div>
+                <div class="wow bounceInDown">
+                    <h1>О нас</h1>
+                    [*content*]
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="servicesbg">
+    <div class="about contaner">
+        <div class="nowow bounceInDown">
+            <h2>Основные услуги</h2>
+            <div class="project-items">[[Ditto? &startID=`5` &tpl=`project-item` &sortBy=`menuindex` &sortDir=`ASC`]]
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="banner" style="background-image: url('[*banner*]')">
+    [*banner-text*]
+</div>
+
+
+
+<div class="additionally">
+    <div class="left-top wow flipInX" style="background-image: url('assets/images/dopservices-left-top.png')"></div>
+    <div class="right-bottom wow flipInX" style="background-image: url('assets/images/dopservices-right-bottom.png')">
+    </div>
+    <div class="left-bottom wow bounceInUp" style="background-image: url('assets/images/dopservices-left-bottom.png')">
+    </div>
+    <div class="about contaner">
+        <h2>Дополнительные услуги</h2>
+        <div class="additionally-projects">[[Ditto? &startID=`37` &tpl=`additionally-project-item` &orderBy=`menuindex
+            ASC`]]
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="steps">
+    <div class="about contaner">
+        <h2>Этапы сотрудничества</h2>
+        <div class="step-works">[[Ditto? &startID=`48` &tpl=`steps-works` &orderBy=`menuindex ASC`]]
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+<div class="payment">
+
+    <div class="left" style="background-image: url('assets/images/sposoby-oplaty-left-bottom.png')"></div>
+    <div class="right" style="background-image: url('assets/images/sposoby-oplaty-right-top.png')"></div>
+
+    <div class="about contaner">
+        <h2>Способы оплаты</h2>
+        <div class="payment-metods">[[Ditto? &startID=`43` &tpl=`payment-metods` &orderBy=`menuindex ASC`]]
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="reviews">
+    <!--
+<div class="left" style="background-image: url('assets/images/rewiev-left.png')"></div>
+<div class="right" style="background-image: url('assets/images/rewiev-right.png')"></div>
+-->
+    <div class="about contaner">
+        <h2>Отзывы клиентов</h2>
+        <div class="reviews-items">[[Ditto? &startID=`9` &tpl=`reviews-item` &orderBy=`menuindex ASC`]]
+            <div class="show-all">
+                <a href="#">Все отзывы</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+<div class="video">
+
+    <div class="left" style="background-image: url('assets/images/video-left-bottom.png')"></div>
+    <div class="right" style="background-image: url('assets/images/video-right-top.png')"></div>
+
+    <div class="about contaner">
+        <div class="wow flip">
+            <h2>Видео процесса шлифовки ГБЦ</h2>
+        </div>
+    </div>
+    <div class="big contaner">
+        [[multiTV?
+        &docid=`106`
+        &tvName=`video`
+        &display=`all`
+        ]]
+
+
+        <!-- <img src="/template/images/video.jpg" alt="">-->
+    </div>
+</div>
+
+
+<div class="photogallery">
+    <div class="about contaner">
+        <div class="wow flip">
+            <h2>Фотографии ремонта ГБЦ</h2>
+        </div>
+    </div>
+    <div class="big contaner">
+
+        [[multiTV?
+        &docid=`104`
+        &tvName=`gallery`
+        &display=`all`
+        ]]
+
+
+        <!--<img src="/template/images/photogallery.png" alt="">-->
+    </div>
+</div>
+
+
+
+
+<div class="vakansii">
+    <div class="banner2" style="background-image: url('[*banner2*]')">
+        <h2>[*banner-text2*]</h2>
+        <a href="[~111~]" class="large-btn call">Вакансии</a>
+    </div>
+</div>
+
+
+
+
+<div class="zayavka about" style="background-image: url('[*zayavka*]')">
+    <div class="bottom wow bounceInRight ajax-form" id="orderCall">
+        <h2>Желаете починить ГБЦ?</h2>
+        <p>Это очень просто. Достаточно заказать обратный звонок!</p>
+        [!eForm? &formid=`callForm` &requiredClass=`required` &subject=`Сообщение с сайта` &tpl=`callForm`
+        &report=`callReport` &gotoid=`[*id*]`!]
+    </div>
+</div>
+
+
+
+
+<div class="address-map">
+    <div class="about contaner">
+        <h2>Наш офис на карте</h2>
+        <div class="addressmap-contener">[[Ditto? &startID=`54` &tpl=`contacts` &orderBy=`menuindex ASC`]]
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa9b198ef5f75401fa91bbacbbcbbd25a4d47fced47d94d38cb43761c67b65058&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+
+
+{{footer}}
